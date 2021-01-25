@@ -1,0 +1,26 @@
+name: ai_vision_template
+description: Template for AI mobile vision
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.7.0
+  path_provider: ^1.6.27
+  path: 1.8.0-nullsafety.3
+  cupertino_icons: ^1.0.2
+  firebase_ml_vision: ^0.10.0
+  firebase_core: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
